@@ -2,6 +2,8 @@ import Head from "next/head";
 
 import Header from "./Header";
 import NavBar from "./NavBar";
+import navButtons from "../config/buttons";
+
 import "./Layout.scss";
 import "./index.scss";
 
@@ -17,7 +19,7 @@ const Layout = (props) => {
       </Head>
       <Header appTitle={appTitle} />
       <div className="Content">{props.children}</div>
-      <NavBar />
+      <NavBar navButtons={navButtons} />
     </div>
   );
 };
