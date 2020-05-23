@@ -11,7 +11,6 @@ import "./index.scss";
 
 const Layout = (props) => {
   const { user, loading } = useFetchUser();
-  console.log(user, loading);
   const appTitle = `> WHATABYTE`;
 
   return (
