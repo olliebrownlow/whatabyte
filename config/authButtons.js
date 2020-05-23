@@ -2,11 +2,11 @@ import React from "react";
 
 const authButtons = [
   {
-    label: "> Login <",
+    label: "> Login here <",
     path: "/api/login",
   },
   {
-    label: "> Logout <",
+    label: "> Logout here <",
     path: "/api/logout",
   },
 ];
