@@ -2,7 +2,8 @@ import Head from "next/head";
 
 import Header from "./Header";
 import NavBar from "./NavBar";
-import navButtons from "../config/buttons";
+import authButtons from "../config/authButtons";
+import navButtons from "../config/navButtons";
 
 import "./Layout.scss";
 import "./index.scss";
@@ -17,7 +18,7 @@ const Layout = (props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
       </Head>
-      <Header appTitle={appTitle} />
+      <Header appTitle={appTitle} authButtons={authButtons} />
       <div className="Content">{props.children}</div>
       <NavBar navButtons={navButtons} />
     </div>

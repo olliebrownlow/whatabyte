@@ -29,5 +29,4 @@ const navButtons = [
     icon: <FontAwesomeIcon icon={faUser} />,
   },
 ];
-
 export default navButtons;
