@@ -12,5 +12,5 @@ I added login and logout links in the header and used this tutorial to add authe
 
 ### Screenshot
 
-Homepage:
-![screenshot1](./public/screenshots/homepage.PNG)
+- Homepage:
+  ![screenshot1](./public/screenshots/homepage.png)
